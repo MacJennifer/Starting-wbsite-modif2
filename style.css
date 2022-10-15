@@ -55,7 +55,6 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
-
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -740,8 +739,15 @@ h4 {
     font-size: 14px;
 }
 
+
 .portfolio-thumb {
     margin-bottom: 24px;
+        width: 270px;
+        height: 270px;
+        display: flex;
+        flex-wrap: wrap;
+    
+
 }
 
 .portfolio-row {
@@ -1034,6 +1040,10 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .portfolio-thumb {
+        width: auto;
+        height: auto;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1041,10 +1051,15 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .portfolio-thumb {
+        width: auto;
+        height: auto;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
+    
 }
