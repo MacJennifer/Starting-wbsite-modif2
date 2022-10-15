@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: white /*rgba(255, 255, 255, .7)*/;
 }
 
 .d-bloc button:hover {
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: white /*rgba(255, 255, 255, .6)*/;
 }
 
 .d-bloc .a-btn:hover,
@@ -774,9 +774,13 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
+.tc-orange {
 
-.tc-white {
     color: #F3976C!important;
+}
+.tc-white {
+    color: white!important;
+    font-size: 14px;
 }
 .tc-black{
     color: black!important;
