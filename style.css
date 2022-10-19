@@ -761,7 +761,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(113, 110, 103, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -786,7 +786,7 @@ h4 {
     color: #F3976C!important;
 }
 .tc-white {
-    color: white!important;
+    color:#F3976C!important;
     font-size: 18px;
 }
 .tc-black{
@@ -795,7 +795,7 @@ h4 {
 }
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: black!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1065,4 +1065,26 @@ h4 {
         text-align: center;
     }
     
+}
+/************** Modification texte ***********/
+
+.col-sm-12.text-center span {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+span.citation {
+
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.732);
+}
+p.citation2 {
+
+    font-size: 16px;
+    
+}
+.col-sm-12.text-center span {
+
+    font-size: 22px;
+    color: #0000009c;
 }
