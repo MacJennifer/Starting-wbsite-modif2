@@ -786,7 +786,8 @@ h4 {
 .tc-white {
     color:#F3976C!important;
     font-size: 18px;
-text-transform: none;
+    text-transform: none;
+    line-height: 1.4em;
     
     
 }
